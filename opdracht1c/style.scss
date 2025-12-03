@@ -1,0 +1,15 @@
+.button{
+    background-color: blue;
+
+    .icon{
+        margin-right: 80px;
+        width: 100px;
+    }
+
+
+    &:hover {
+        background-color: green;
+    }
+
+
+}
