@@ -1,9 +1,11 @@
-$primary-color: #3498db;
-$text-kleur: white;
+$main-color: #e91e63;
+$secondary-color: white;
+$font-size-base: 16px;
 
 
-body{
-    background-color: $primary-color;
-    color: $text-kleur;
+
+.alert-selector{
+    background-color: $main-color;
+    color: $secondary-color;
+    font-size: $font-size-base;
 }
-

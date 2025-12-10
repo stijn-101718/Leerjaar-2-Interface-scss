@@ -1,0 +1,15 @@
+$button-bg: green;
+$button-bg-hover: yellow;
+
+
+
+.btn-selector{
+    background-color: $button-bg;
+
+
+    &:hover{
+        background-color: $button-bg-hover;
+    }
+
+}
+
