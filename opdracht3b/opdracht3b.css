@@ -1,0 +1,13 @@
+.btn {
+  background-color: green;
+  padding: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=opdracht3b.css.map */
