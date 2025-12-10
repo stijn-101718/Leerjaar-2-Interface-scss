@@ -1,0 +1,6 @@
+@use 'variables';
+
+.test{
+    background-color: variables.$primary-color;
+    color: variables.$tekst-kleur;
+}
