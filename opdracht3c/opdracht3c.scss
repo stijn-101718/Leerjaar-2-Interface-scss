@@ -1,0 +1,24 @@
+@use 'variables';
+@use 'layout';
+@use 'typography';
+
+
+body{
+    background-color: variables.$achtergrond-kleur;
+    color: variables.$text-color;
+    font-family: variables.$font-family;
+    font-size: typography.$font-size;
+    line-height: typography.$line-height;
+    padding: layout.$container-padding;
+}
+
+section {
+    background-color: layout.$container-bg-color;
+    padding: layout.$container-padding;
+    border-radius: layout.$container-border-radius;
+    margin-bottom: 20px;
+}
+
+
+
+
