@@ -1,0 +1,26 @@
+.btn {
+  background-color: #3498db;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  color: white;
+}
+
+.card {
+  background-color: gray;
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+  padding: 20px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+

@@ -1,0 +1,12 @@
+@use 'variables';
+
+.card{
+    background-color: variables.$achtergron-kleur;
+    width: variables.$breedt;
+    height: variables.$hoogt;
+    border-radius: 8px;
+    padding: 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
