@@ -1,0 +1,36 @@
+.btn {
+  background-color: #ff5722;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  background-color: #ff5722;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: green;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}/*# sourceMappingURL=main.css.map */

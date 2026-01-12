@@ -1,8 +1,8 @@
 @use './abstracts/variables';
 @use './components/buttons';
+@use './layout/layout';
 
 body {
-    background-color: green;
     margin: 0;
     padding: 20px;
     font-family: Arial, sans-serif;
