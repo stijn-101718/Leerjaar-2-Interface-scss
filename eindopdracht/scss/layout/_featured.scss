@@ -1,16 +1,20 @@
 .container.text-center {
     display: flex;
+    justify-content: center;
+
 }
 
 .row {
     width: 100%;
+    min-height: 100px;
 }
 
 .col {
     background-color: green;
-    margin-top: 2000px;
-    width: 10%;
-    height: auto;
+    margin-top: 1000px;
+    margin-bottom: 100px;
+    width: 300px;
+    min-height: 100px;
 }
 
 
