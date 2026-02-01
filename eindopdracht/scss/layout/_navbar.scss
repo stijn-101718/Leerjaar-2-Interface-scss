@@ -1,0 +1,25 @@
+nav {
+    text-align: center;
+    padding: $spacing-nav-padding;
+    font-size: $font-size-nav;
+    z-index: $z-index-navbar;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: $color-navbar-bg !important;
+    color: $color-text;
+
+    .navbar-nav .nav-link {
+        color: $color-text !important;
+        transition: $transition-default;
+        margin-left: $spacing-nav-margin;
+        margin-right: $spacing-nav-margin;
+
+        &:hover {
+            color: $color-primary !important;
+            text-decoration: underline;
+            text-decoration-thickness: 3px;
+            text-underline-offset: 10px;
+        }
+    }
+}

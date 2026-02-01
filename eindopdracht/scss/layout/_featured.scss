@@ -1,0 +1,19 @@
+.container.text-center {
+    margin-top: 1500px;
+    margin: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    width: 100%;
+}
+
+.col {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
