@@ -1,13 +1,25 @@
+body, html {
+  scrollbar-width: none;
+}
+
 nav {
   text-align: center;
   padding: 10px;
   font-size: 15px;
   z-index: 1;
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 
 .navbar.navbar-expand-lg.bg-body-tertiary {
   background-color: rgba(70, 70, 70, 0.479) !important;
   color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 .navbar.navbar-expand-lg.bg-body-tertiary .navbar-nav .nav-link {
   color: white !important;
@@ -23,7 +35,7 @@ nav {
 }
 
 .achtergrond {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -32,18 +44,13 @@ nav {
   overflow: hidden;
   background-image: url("../images/achtergrond2.webp");
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   filter: brightness(0.9) contrast(1.1);
 }
 
 .container.text-center {
-  margin-top: 1500px;
-  margin: 500px;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .row {
@@ -52,10 +59,7 @@ nav {
 
 .col {
   background-color: green;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-/*# sourceMappingURL=main.css.map */
+  margin-top: 2000px;
+  width: 10%;
+  height: auto;
+}/*# sourceMappingURL=main.css.map */

@@ -1,9 +1,5 @@
 .container.text-center {
-    margin-top: 1500px;
-    margin: 500px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .row {
@@ -12,8 +8,9 @@
 
 .col {
     background-color: green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin-top: 2000px;
+    width: 10%;
+    height: auto;
 }
+
+

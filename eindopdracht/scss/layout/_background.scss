@@ -1,5 +1,5 @@
 .achtergrond {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -8,8 +8,7 @@
     overflow: hidden;
     background-image: url('../images/achtergrond2.webp');
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     filter: brightness(0.9) contrast(1.1);
 }
