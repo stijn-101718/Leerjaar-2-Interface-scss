@@ -48,19 +48,21 @@ nav {
 }
 
 .container.text-center {
-  display: flex;
+  display: block;
+  margin-top: 100vh;
+  padding-top: 2rem;
   justify-content: center;
 }
 
 .row {
-  width: 100%;
   min-height: 100px;
 }
 
 .col {
   background-color: green;
-  margin-top: 1000px;
-  margin-bottom: 100px;
   width: 300px;
+  display: flex;
   min-height: 100px;
+  text-align: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
